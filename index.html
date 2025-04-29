@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate | Property in India | Buy/Sale/Rent Properties | Magicbricks</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://www.magicbricks.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="images/mb-logo.svg" alt="Magicbricks Logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Buy</a></li>
+                    <li><a href="#">Rent</a></li>
+                    <li><a href="#">Sell</a></li>
+                    <li><a href="#">Home Loans</a></li>
+                    <li><a href="#">Property Services</a></li>
+                    <li><a href="#">MB Prime</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="login-btn">Login</button>
+                <button class="post-property-btn">Post Property <span>FREE</span></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Finding a Home Was Never This Easy</h2>
+            <div class="search-tabs">
+                <div class="tab active" data-tab="buy">Buy</div>
+                <div class="tab" data-tab="rent">Rent</div>
+                <div class="tab" data-tab="pg">PG/Co-living</div>
+                <div class="tab" data-tab="commercial">Commercial</div>
+                <div class="tab" data-tab="plot">Plot</div>
+                <div class="tab" data-tab="projects">New Projects</div>
+            </div>
+            <div class="search-box">
+                <div class="search-row">
+                    <div class="search-input">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Enter City, Locality, Project or Landmark">
+                    </div>
+                    <div class="property-type">
+                        <select>
+                            <option value="">Property Type</option>
+                            <option value="apartment">Flat/Apartment</option>
+                            <option value="villa">Villa</option>
+                            <option value="independent-house">Independent House</option>
+                            <option value="builder-floor">Builder Floor</option>
+                            <option value="plot">Plot/Land</option>
+                            <option value="penthouse">Penthouse</option>
+                        </select>
+                    </div>
+                    <div class="budget">
+                        <select>
+                            <option value="">Budget</option>
+                            <option value="5-10">₹5-10 Lac</option>
+                            <option value="10-20">₹10-20 Lac</option>
+                            <option value="20-40">₹20-40 Lac</option>
+                            <option value="40-60">₹40-60 Lac</option>
+                            <option value="60-80">₹60-80 Lac</option>
+                            <option value="80-100">₹80 Lac-1 Cr</option>
+                            <option value="100-200">₹1-2 Cr</option>
+                            <option value="200+">₹2+ Cr</option>
+                        </select>
+                    </div>
+                    <button class="search-btn">SEARCH</button>
+                </div>
+                <div class="filter-tags">
+                    <span>Popular: </span>
+                    <a href="#">Ready to Move</a>
+                    <a href="#">Under Construction</a>
+                    <a href="#">Owner Properties</a>
+                    <a href="#">Budget Homes</a>
+                    <a href="#">Premium Homes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Cities Section -->
+    <section class="featured-cities">
+        <div class="container">
+            <h2>Explore Real Estate in Popular Indian Cities</h2>
+            <p class="section-subtitle">Find properties in these top cities</p>
+            <div class="scroll-container">
+                <div class="cities-grid">
+                    <div class="city-card">
+                        <img src="images/cities/mumbai.jpg" alt="Mumbai">
+                        <div class="city-info">
+                            <h3>Mumbai</h3>
+                            <p>5,324+ Properties</p>
+                        </div>
+                    </div>
+                    <div class="city-card">
+                        <img src="https://img.staticmb.com/mbcontent/images/uploads/2022/12/Delhi-NCR.jpg" alt="Delhi-NCR">
+                        <div class="city-info">
+                            <h3>Delhi-NCR</h3>
+                            <p>4,820+ Properties</p>
+                        </div>
+                    </div>
+                    <div class="city-card">
+                        <img src="https://img.staticmb.com/mbcontent/images/uploads/2022/12/Bangalore.jpg" alt="Bangalore">
+                        <div class="city-info">
+                            <h3>Bangalore</h3>
+                            <p>3,985+ Properties</p>
+                        </div>
+                    </div>
+                    <div class="city-card">
+                        <img src="https://img.staticmb.com/mbcontent/images/uploads/2022/12/Hyderabad.jpg" alt="Hyderabad">
+                        <div class="city-info">
+                            <h3>Hyderabad</h3>
+                            <p>2,740+ Properties</p>
+                        </div>
+                    </div>
+                    <div class="city-card">
+                        <img src="https://img.staticmb.com/mbcontent/images/uploads/2022/12/Pune.jpg" alt="Pune">
+                        <div class="city-info">
+                            <h3>Pune</h3>
+                            <p>2,156+ Properties</p>
+                        </div>
+                    </div>
+                    <div class="city-card">
+                        <img src="https://img.staticmb.com/mbcontent/images/uploads/2022/12/Chennai.jpg" alt="Chennai">
+                        <div class="city-info">
+                            <h3>Chennai</h3>
+                            <p>1,875+ Properties</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="scroll-arrow prev city-links prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="scroll-arrow next city-links next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="featured-projects">
+        <div class="container">
+            <h2>Featured New Projects</h2>
+            <p class="section-subtitle">Handpicked projects for you</p>
+            <div class="scroll-container trending-projects">
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="https://img.staticmb.com/mbphoto/project/Photo_h310_w462/2023/05/09/Project-Photo-1-Godrej-Tropical-Isle-Mumbai-5471718_1200_1600_310_462.jpg" alt="Godrej Tropical Isle">
+                        <div class="project-info">
+                            <h3>Godrej Tropical Isle</h3>
+                            <p>Thane, Mumbai</p>
+                            <p class="price">₹ 1.2 Cr - 2.5 Cr</p>
+                            <div class="developer">
+                                <small>By Godrej Properties</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://img.staticmb.com/mbphoto/project/Photo_h310_w462/2022/11/07/Project-Photo-1-Lodha-Bel-Air-Mumbai-5434970_1200_1600_310_462.jpg" alt="Lodha Bel Air">
+                        <div class="project-info">
+                            <h3>Lodha Bel Air</h3>
+                            <p>Powai, Mumbai</p>
+                            <p class="price">₹ 2.8 Cr - 4.2 Cr</p>
+                            <div class="developer">
+                                <small>By Lodha Group</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://img.staticmb.com/mbphoto/project/Photo_h310_w462/2023/02/22/Project-Photo-1-Runwal-Gardens-Mumbai-5450084_1200_1600_310_462.jpg" alt="Runwal Gardens">
+                        <div class="project-info">
+                            <h3>Runwal Gardens</h3>
+                            <p>Dombivli, Mumbai</p>
+                            <p class="price">₹ 42.0 L - 85.0 L</p>
+                            <div class="developer">
+                                <small>By Runwal Group</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://img.staticmb.com/mbphoto/project/Photo_h310_w462/2021/04/27/Project-Photo-1-Hiranandani-Estate-Mumbai-5090416_1200_1600_310_462.jpg" alt="Hiranandani Estate">
+                        <div class="project-info">
+                            <h3>Hiranandani Estate</h3>
+                            <p>Thane West, Mumbai</p>
+                            <p class="price">₹ 1.8 Cr - 3.6 Cr</p>
+                            <div class="developer">
+                                <small>By Hiranandani Constructions</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="scroll-arrow prev trending-projects prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="scroll-arrow next trending-projects next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Property Collections Section -->
+    <section class="property-collections">
+        <div class="container">
+            <h2>Property Collections</h2>
+            <p class="section-subtitle">Find properties that match your needs</p>
+            <div class="collections-grid">
+                <div class="collection-card">
+                    <img src="https://cdn.staticmb.com/magicservicestatic/images/mb-home-web/collection/buy/webp/owner-property.webp" alt="Owner Property">
+                    <div class="collection-info">
+                        <h3>Owner Properties</h3>
+                        <p>Direct from owners, no brokerage</p>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <img src="https://cdn.staticmb.com/magicservicestatic/images/mb-home-web/collection/buy/webp/new-projects.webp" alt="New Projects">
+                    <div class="collection-info">
+                        <h3>New Projects</h3>
+                        <p>Upcoming and newly launched projects</p>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <img src="https://cdn.staticmb.com/magicservicestatic/images/mb-home-web/collection/buy/webp/ready-to-move-in.webp" alt="Ready to Move In">
+                    <div class="collection-info">
+                        <h3>Ready to Move In</h3>
+                        <p>Immediate possession properties</p>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <img src="https://cdn.staticmb.com/magicservicestatic/images/mb-home-web/collection/buy/webp/budget-homes.webp" alt="Budget Homes">
+                    <div class="collection-info">
+                        <h3>Budget Homes</h3>
+                        <p>Affordable housing options</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Properties Section -->
+    <section class="popular-properties">
+        <div class="container">
+            <h2>Popular Properties for Sale</h2>
+            <div class="property-filters">
+                <button class="filter-btn active">All Properties</button>
+                <button class="filter-btn">Under ₹50 Lac</button>
+                <button class="filter-btn">₹50 Lac - 1 Cr</button>
+                <button class="filter-btn">Above ₹1 Cr</button>
+                <button class="filter-btn">Ready to Move</button>
+            </div>
+            <div class="scroll-container featured-properties">
+                <div class="properties-grid">
+                    <div class="property-card">
+                        <div class="property-image">
+                            <img src="https://img.staticmb.com/mbphoto/property/cropped_images/2025/Mar/10/Photo_h180_w240/78333087_1_PropertyImage490-5369252314721_180_240.jpg" alt="Property">
+                            <span class="tag">EXCLUSIVE</span>
+                        </div>
+                        <div class="property-details">
+                            <h3>3 BHK Apartment for Sale</h3>
+                            <p class="price">₹ 85.5 Lac</p>
+                            <p class="location">Powai, Mumbai</p>
+                            <div class="property-specs">
+                                <span><i class="fas fa-expand"></i> 1450 sq.ft.</span>
+                                <span><i class="fas fa-bed"></i> 3 Beds</span>
+                                <span><i class="fas fa-bath"></i> 2 Baths</span>
+                            </div>
+                            <div class="property-footer">
+                                <span class="posted-by">Posted by Owner</span>
+                                <button class="contact-btn">Contact</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="property-card">
+                        <div class="property-image">
+                            <img src="https://img.staticmb.com/mbphoto/property/cropped_images/2024/May/15/Photo_h180_w240/72815635_11_a9fb28277385e5001773861236b006e9112large_180_240.jpg" alt="Property">
+                            <span class="tag">VERIFIED</span>
+                        </div>
+                        <div class="property-details">
+                            <h3>2 BHK Apartment for Sale</h3>
+                            <p class="price">₹ 65.3 Lac</p>
+                            <p class="location">Whitefield, Bangalore</p>
+                            <div class="property-specs">
+                                <span><i class="fas fa-expand"></i> 1180 sq.ft.</span>
+                                <span><i class="fas fa-bed"></i> 2 Beds</span>
+                                <span><i class="fas fa-bath"></i> 2 Baths</span>
+                            </div>
+                            <div class="property-footer">
+                                <span class="posted-by">Posted by Agent</span>
+                                <button class="contact-btn">Contact</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="property-card">
+                        <div class="property-image">
+                            <img src="https://img.staticmb.com/mbphoto/property/cropped_images/2024/May/15/Photo_h180_w240/72827859_11_01fmob1714110536488454152_180_240.jpg" alt="Property">
+                            <span class="tag">NEW</span>
+                        </div>
+                        <div class="property-details">
+                            <h3>4 BHK Independent House</h3>
+                            <p class="price">₹ 1.25 Cr</p>
+                            <p class="location">Sector 15, Gurugram</p>
+                            <div class="property-specs">
+                                <span><i class="fas fa-expand"></i> 2200 sq.ft.</span>
+                                <span><i class="fas fa-bed"></i> 4 Beds</span>
+                                <span><i class="fas fa-bath"></i> 3 Baths</span>
+                            </div>
+                            <div class="property-footer">
+                                <span class="posted-by">Posted by Builder</span>
+                                <button class="contact-btn">Contact</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="property-card">
+                        <div class="property-image">
+                            <img src="https://img.staticmb.com/mbphoto/property/cropped_images/2025/Apr/16/Photo_h180_w240/78965683_16_ivingroomwalldesign_180_240.jpg" alt="Property">
+                            <span class="tag">PREMIUM</span>
+                        </div>
+                        <div class="property-details">
+                            <h3>3 BHK Apartment for Sale</h3>
+                            <p class="price">₹ 75.8 Lac</p>
+                            <p class="location">Gachibowli, Hyderabad</p>
+                            <div class="property-specs">
+                                <span><i class="fas fa-expand"></i> 1650 sq.ft.</span>
+                                <span><i class="fas fa-bed"></i> 3 Beds</span>
+                                <span><i class="fas fa-bath"></i> 3 Baths</span>
+                            </div>
+                            <div class="property-footer">
+                                <span class="posted-by">Posted by Owner</span>
+                                <button class="contact-btn">Contact</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="property-card">
+                        <div class="property-image">
+                            <img src="https://img.staticmb.com/mbphoto/property/cropped_images/2024/Jan/04/Photo_h180_w240/70756287_7_1704350801682-4376_180_240.jpg" alt="Property">
+                            <span class="tag">HOT DEAL</span>
+                        </div>
+                        <div class="property-details">
+                            <h3>4 BHK Villa for Sale</h3>
+                            <p class="price">₹ 1.8 Cr</p>
+                            <p class="location">Electronic City, Bangalore</p>
+                            <div class="property-specs">
+                                <span><i class="fas fa-expand"></i> 2800 sq.ft.</span>
+                                <span><i class="fas fa-bed"></i> 4 Beds</span>
+                                <span><i class="fas fa-bath"></i> 4 Baths</span>
+                            </div>
+                            <div class="property-footer">
+                                <span class="posted-by">Posted by Builder</span>
+                                <button class="contact-btn">Contact</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="property-card">
+                        <div class="property-image">
+                            <img src="https://img.staticmb.com/mbphoto/property/cropped_images/2025/Jan/09/Photo_h180_w240/76947829_4_anhattanTower_180_240.jpg" alt="Property">
+                            <span class="tag">FEATURED</span>
+                        </div>
+                        <div class="property-details">
+                            <h3>3 BHK Luxury Apartment</h3>
+                            <p class="price">₹ 1.05 Cr</p>
+                            <p class="location">Manhattan Tower, Thane</p>
+                            <div class="property-specs">
+                                <span><i class="fas fa-expand"></i> 1560 sq.ft.</span>
+                                <span><i class="fas fa-bed"></i> 3 Beds</span>
+                                <span><i class="fas fa-bath"></i> 3 Baths</span>
+                            </div>
+                            <div class="property-footer">
+                                <span class="posted-by">Posted by Builder</span>
+                                <button class="contact-btn">Contact</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="property-card">
+                        <div class="property-image">
+                            <img src="https://img.staticmb.com/mbphoto/property/cropped_images/2025/Feb/20/Photo_h180_w240/77879657_5_PropertyImage765-8002613514575_180_240.jpg" alt="Property">
+                            <span class="tag">BEST SELLER</span>
+                        </div>
+                        <div class="property-details">
+                            <h3>2 BHK Penthouse</h3>
+                            <p class="price">₹ 95.2 Lac</p>
+                            <p class="location">HSR Layout, Bangalore</p>
+                            <div class="property-specs">
+                                <span><i class="fas fa-expand"></i> 1320 sq.ft.</span>
+                                <span><i class="fas fa-bed"></i> 2 Beds</span>
+                                <span><i class="fas fa-bath"></i> 2 Baths</span>
+                            </div>
+                            <div class="property-footer">
+                                <span class="posted-by">Posted by Owner</span>
+                                <button class="contact-btn">Contact</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="property-card">
+                        <div class="property-image">
+                            <img src="https://img.staticmb.com/mbphoto/property/cropped_images/2025/Apr/10/Photo_h180_w240/78854643_1_PropertyImage885-8968109284415_180_240.jpg" alt="Property">
+                            <span class="tag">NEW LAUNCH</span>
+                        </div>
+                        <div class="property-details">
+                            <h3>4 BHK Duplex</h3>
+                            <p class="price">₹ 2.1 Cr</p>
+                            <p class="location">Jubilee Hills, Hyderabad</p>
+                            <div class="property-specs">
+                                <span><i class="fas fa-expand"></i> 2850 sq.ft.</span>
+                                <span><i class="fas fa-bed"></i> 4 Beds</span>
+                                <span><i class="fas fa-bath"></i> 4 Baths</span>
+                            </div>
+                            <div class="property-footer">
+                                <span class="posted-by">Posted by Premium Builder</span>
+                                <button class="contact-btn">Contact</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="scroll-arrow prev featured-properties prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="scroll-arrow next featured-properties next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <button class="view-all-btn">View All Properties</button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2>Property Services</h2>
+            <p class="section-subtitle">Making real estate easier for you</p>
+            
+            <!-- Featured services cards -->
+            <div class="featured-services">
+                <div class="featured-service-card">
+                    <div class="service-content">
+                        <h3>Best Home Loan Deals</h3>
+                        <p>Compare & choose from 34+ banks to get the best home loan deal</p>
+                        <a href="#" class="service-cta">Apply Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-image">
+                        <img src="https://cdn.staticmb.com/magicservicestatic/images/revamp/mbhome-web/property-services/webp/graphic-home-loans.webp" alt="Home Loan Services">
+                    </div>
+                </div>
+                <div class="featured-service-card">
+                    <div class="service-content">
+                        <h3>Home Interiors</h3>
+                        <p>Transform your space with our trusted Decor partners</p>
+                        <a href="#" class="service-cta">Explore Options <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-image">
+                        <img src="https://cdn.staticmb.com/magicservicestatic/images/revamp/mbhome-web/property-services/graphic-home-decor.jpg" alt="Home Interiors">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Standard service cards -->
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Home Loans</h3>
+                    <p>Compare & apply for the best home loan offers</p>
+                    <a href="#" class="service-link">Apply Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Property Valuation</h3>
+                    <p>Get an accurate estimate of your property value</p>
+                    <a href="#" class="service-link">Check Value <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Packers & Movers</h3>
+                    <p>Hassle-free shifting with verified partners</p>
+                    <a href="#" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                    <h3>Home Interiors</h3>
+                    <p>Professional interior design & renovation services</p>
+                    <a href="#" class="service-link">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Property Value Calculator Banner -->
+    <section class="property-value-banner">
+        <div class="container">
+            <div class="value-content">
+                <h2>What's Your Property Worth?</h2>
+                <p>Get an accurate estimate of your property's market value with our free valuation tool</p>
+                <div class="value-search">
+                    <input type="text" placeholder="Enter your locality">
+                    <button class="value-check-btn">Check Now</button>
+                </div>
+                <div class="value-features">
+                    <div class="value-feature">
+                        <i class="fas fa-bolt"></i>
+                        <span>Instant Estimate</span>
+                    </div>
+                    <div class="value-feature">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Market Trends</span>
+                    </div>
+                    <div class="value-feature">
+                        <i class="fas fa-lock"></i>
+                        <span>Confidential</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-col">
+                    <h4>Real Estate in India</h4>
+                    <ul>
+                        <li><a href="#">Property in Mumbai</a></li>
+                        <li><a href="#">Property in Delhi</a></li>
+                        <li><a href="#">Property in Bangalore</a></li>
+                        <li><a href="#">Property in Hyderabad</a></li>
+                        <li><a href="#">Property in Chennai</a></li>
+                        <li><a href="#">Property in Pune</a></li>
+                        <li><a href="#">View all cities</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Property Types</h4>
+                    <ul>
+                        <li><a href="#">Apartments</a></li>
+                        <li><a href="#">Villas</a></li>
+                        <li><a href="#">Independent Houses</a></li>
+                        <li><a href="#">Builder Floors</a></li>
+                        <li><a href="#">Plots</a></li>
+                        <li><a href="#">Commercial Spaces</a></li>
+                        <li><a href="#">PG & Co-living</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <h4>Download App</h4>
+                    <div class="app-links">
+                        <a href="#"><img src="https://tinyurl.com/yupazm8n" alt="Play Store"></a>
+                        <a href="#"><img src="https://tinyurl.com/3aaewfw8" alt="App Store"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Magicbricks.com. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
